@@ -68,13 +68,14 @@ const MobileSlider = () => {
                                     background: '#fff',
                                     border: '2px solid #6616aa',
                                     zIndex: "99",
-                                    borderRadius: '15px'
+                                    borderRadius: '15px',
+                                    width: '90%'
                                 }}
                                 className="img-fluid por" src={FirstSlideim3} alt="im1" />
 
                             <div className="pnl30 text-white">
                                 <h1 className="pb5">ABC 1</h1>
-                                <p className="pb15">This is sample text for ABC 1. This is sample text for ABC 1</p>
+                                <p className="pb15">This is sample text for ABC 1.</p>
                                 <div className="d-flex aic">
                                     <h4>View Case study -</h4>
                                 </div>

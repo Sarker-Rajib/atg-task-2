@@ -3,12 +3,18 @@
     margin: auto;
 }
 
+@media(min-width:768px) {
+    .mobile-slider {
+        display: none;
+    }
+}
+
 .mobile-slider {
     width: 100%;
 }
 
 .mobile-slider .swiper {
-    height: calc(100vh - 55px);
+    height: 100vh;
 }
 
 .mobile-slider .swiper-slide .item {
@@ -35,7 +41,7 @@
 
 
 .mobile-slider .swiper-pagination {
-    bottom: 25px;
+    bottom: 50px;
 }
 
 .mobile-slider .swiper-pagination-bullet {

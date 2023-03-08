@@ -1,0 +1,57 @@
+.wide-screen-content {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .wide-screen-content {
+        display: block;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.page-scroller-info {
+    position: fixed;
+    z-index: 99;
+    display: flex;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.info-block p {
+    margin: 0;
+}
+
+
+.page-number {
+    font-size: 300%;
+    color: black;
+}
+
+
+.page-nav {
+    height: 50px;
+    border: 2px solid white;
+    position: fixed;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.nasa-div {
+    top: 20%;
+}
+
+@media(max-width: 1400px) {
+    .nasa-div {
+        top: 15%;
+    }
+}

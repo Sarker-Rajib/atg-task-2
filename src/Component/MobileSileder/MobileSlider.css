@@ -1,6 +1,8 @@
 .mobile-slider {
+    height: 100vh;
     max-width: 767px;
     margin: auto;
+    overflow: hidden;
 }
 
 @media(min-width:768px) {

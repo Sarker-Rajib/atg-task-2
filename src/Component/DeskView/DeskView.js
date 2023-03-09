@@ -24,7 +24,6 @@ import sixthSlideim2 from './../../assets/melltoo-img1.png';
 import sixthSlideim3 from './../../assets/mobile-app-of-the-year-by-entrepreneur.png';
 import nasa from './../../assets/nasa-mobile-app.png';
 
-
 import './DeskView.css';
 
 const DeskView = () => {

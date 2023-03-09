@@ -1313,7 +1313,7 @@ const DeskView = () => {
                 </Page>
 
                 {/* page 6 */}
-                <Page className='d-flex'>
+                <Page className='d-flex' style={{ overflow: 'hidden' }}>
                     <div
                         className='left sixth'
                         style={{
@@ -1546,7 +1546,7 @@ const DeskView = () => {
                 </Page>
 
                 {/* page 7 */}
-                <Page className='d-flex'>
+                <Page className='d-flex' style={{ overflow: 'hidden' }}>
                     <div
                         className='left seventh'
                         style={{

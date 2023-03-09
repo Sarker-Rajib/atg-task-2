@@ -33,7 +33,8 @@ const DeskView = () => {
                 {/* <PageNav /> */}
                 <PageIndicator />
 
-                <Page className='d-flex'>
+                {/* page 1 */}
+                <Page className='d-flex' style={{ overflow: 'hidden' }}>
                     <div
                         className='left first'
                         style={{
@@ -203,11 +204,19 @@ const DeskView = () => {
                                 color: '#fff'
                             }}
                         >
-                            <h1 className='big-font'>25+ millions Downloads</h1>
-                            <p>an app store and google play store</p>
+                            <h1
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                className='big-font'>25+ millions Downloads</h1>
+                            <p data-aos="fade-up">an app store and google play store</p>
                         </div>
 
-                        <div
+                        <div data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 display: 'inline-block',
                                 borderRadius: '50%',
@@ -233,16 +242,17 @@ const DeskView = () => {
                         className='right first d-flex aic jcc p50'>
                         <div className='d-flex p50'>
                             <div>
-                                <img src={FirstSlideim1} alt="q" className='img-fluid' />
+                                <img data-aos="fade-up" src={FirstSlideim1} alt="q" className='img-fluid' />
                             </div>
-                            <div>
+                            <div data-aos="fade-up">
                                 <img src={FirstSlideim2} alt="q" className='img-fluid' />
                             </div>
                         </div>
                     </div>
                 </Page>
 
-                <Page className='d-flex'>
+                {/* page 2 */}
+                <Page className='d-flex' style={{ overflow: 'hidden' }}>
                     <div
                         className='left first'
                         style={{
@@ -412,11 +422,26 @@ const DeskView = () => {
                                 color: '#fff'
                             }}
                         >
-                            <p style={{
-                                textAlign: 'left',
-                            }}>The next big</p>
-                            <h1 className='big-font'>Blockchain</h1>
-                            <p>revolution</p>
+                            <p
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true" style={{
+                                    textAlign: 'left',
+                                }}>The next big</p>
+                            <h1
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true" className='big-font'>Blockchain</h1>
+                            <p
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true">revolution</p>
                         </div>
 
                         <div
@@ -428,7 +453,13 @@ const DeskView = () => {
                                 width: '100%',
                             }}
                             className="text-white poa b0 l0 p50">
-                            <h1 className="pb20 big-font">ABC 2</h1>
+                            <h1
+                                data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                className="pb20 big-font">ABC 2</h1>
                             <p className="pb50">We are the best development <br /> company of the world</p>
                             <div className="d-flex aic jcb">
                                 <p className='text-white'
@@ -448,17 +479,31 @@ const DeskView = () => {
                         <div
                             style={{ height: '100%' }}
                             className='d-flex  jcc por'>
-                            <div className='poa b0 l0 w-50'>
-                                <img src={SecondSlideim2} alt="q" className='img-fluid' />
+                            <div className='poa l0 w-50'
+                                style={{ top: "35%" }}>
+                                <img
+                                    data-aos="fade-up"
+                                    data-aos-delay="50"
+                                    data-aos-duration="4000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    src={SecondSlideim2} alt="q" className='img-fluid' />
                             </div>
                             <div className='poa r0 t0 w-50'>
-                                <img src={SecondSlideim1} alt="q" className='img-fluid' />
+                                <img
+                                    data-aos="fade-down"
+                                    data-aos-delay="50"
+                                    data-aos-duration="4000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    src={SecondSlideim1} alt="q" className='img-fluid' />
                             </div>
                         </div>
                     </div>
                 </Page>
 
-                <Page className='d-flex'>
+                {/* page 3 */}
+                <Page className='d-flex' style={{ overflow: 'hidden' }}>
                     <div
                         className='left third'
                         style={{
@@ -627,13 +672,28 @@ const DeskView = () => {
                                 color: '#fff',
                             }}
                         >
-                            <p style={{
-                                textAlign: 'left',
-                            }}>Powered by</p>
+                            <p
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true" style={{
+                                    textAlign: 'left',
+                                }}>Powered by</p>
                             <img
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
                                 style={{ maxWidth: '250px' }}
                                 src={nasa} alt="p" />
-                            <p>algorithms</p>
+                            <p
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true">algorithms</p>
                         </div>
 
                         <div
@@ -645,7 +705,13 @@ const DeskView = () => {
                                 width: '100%',
                             }}
                             className="text-white poa b0 l0 p50">
-                            <h1 className="pb20 big-font">ABC 3</h1>
+                            <h1
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                className="pb20 big-font">ABC 3</h1>
                             <p className="pb50">We are the best web <br />development company <br /> of the world</p>
                             <div className="d-flex aic jcb">
                                 <p className='text-white'
@@ -666,11 +732,24 @@ const DeskView = () => {
                         <div
                             style={{ height: '100%' }}
                             className='d-flex  jcc por'>
-                            <div className='poa b0 l0 w-50'>
-                                <img src={ThirdSlideim1} alt="q" className='img-fluid' />
+                            <div className='poa l0 w-50'
+                                style={{ top: '20%' }}
+                            >
+                                <img
+                                    data-aos="fade-up"
+                                    data-aos-delay="50"
+                                    data-aos-duration="4000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    src={ThirdSlideim1} alt="q" className='img-fluid' />
                             </div>
                             <div className='poa r0 t0 w-50'>
                                 <img
+                                    data-aos="fade-down"
+                                    data-aos-delay="50"
+                                    data-aos-duration="4000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
                                     style={{ marginTop: '-150px', width: '85%' }}
                                     src={ThirdSlideim2} alt="q"
                                     className='img-fluid' />
@@ -679,7 +758,8 @@ const DeskView = () => {
                     </div>
                 </Page>
 
-                <Page className='d-flex'>
+                {/* page 4 */}
+                <Page className='d-flex' style={{ overflow: 'hidden' }}>
                     <div
                         className='left fourth'
                         style={{
@@ -839,6 +919,11 @@ const DeskView = () => {
                         </div>
 
                         <div
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 display: 'inline-block',
@@ -866,7 +951,11 @@ const DeskView = () => {
                                 width: '100%',
                             }}
                             className="text-white poa b0 l0 p50">
-                            <h1 className="pb20 big-font">ABC 4</h1>
+                            <h1 data-aos="fade-up"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true" className="pb20 big-font">ABC 4</h1>
                             <p className="pb50">We are the best web <br />development company <br /> of the world</p>
                             <div className="d-flex aic jcb">
                                 <p className='text-white'
@@ -886,44 +975,60 @@ const DeskView = () => {
                         }}
                         className='right fourth'>
                         <img
+                            data-aos="fade-down"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 left: '50%',
+                                width: '40%',
                                 top: '0'
                             }}
                             src={FourthSlideim1} alt="q" className='img-fluid' />
                         <img
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
-                                bottom: '0px',
-                                left: '70px'
+                                top: '40%',
+                                left: '70px',
+                                width: '40%',
                             }}
                             src={FourthSlideim2} alt="q" className='img-fluid' />
                         <img
                             style={{
                                 position: 'absolute',
                                 top: '-75px',
-                                left: '0'
+                                left: '0',
+                                width: '40%',
                             }}
                             src={FourthSlideim3} alt="q" className='img-fluid' />
                         <img
                             style={{
                                 position: 'absolute',
                                 top: '0px',
-                                right: '10px'
+                                right: '10px',
+                                width: '10%',
                             }}
                             src={FourthSlideim4} alt="q" className='img-fluid' />
                         <img
                             style={{
                                 position: 'absolute',
                                 bottom: '0px',
-                                right: '0px'
+                                right: '0px',
+                                width: '25%',
                             }}
                             src={FourthSlideim5} alt="q" className='img-fluid' />
                     </div>
                 </Page>
 
-                <Page className='d-flex'>
+                {/* page 5 */}
+                <Page className='d-flex' style={{ overflow: 'hidden' }}>
                     <div
                         className='left fifth'
                         style={{
@@ -1093,6 +1198,11 @@ const DeskView = () => {
                                 textAlign: 'right',
                                 color: '#fff',
                             }}
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                         >
                             <p style={{
                                 textAlign: 'left',
@@ -1110,7 +1220,12 @@ const DeskView = () => {
                                 width: '100%',
                             }}
                             className="text-white poa b0 l0 p50">
-                            <h1 className="pb20 big-font">ABC 5</h1>
+                            <h1 data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                className="pb20 big-font">ABC 5</h1>
                             <p className="pb50">We are the best web <br />development company <br /> of the world</p>
                             <div className="d-flex aic jcb">
                                 <a href='/' className='text-white'
@@ -1129,6 +1244,11 @@ const DeskView = () => {
                         }}
                         className='right fifth'>
                         <img
+                            data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 left: '10%',
@@ -1140,9 +1260,14 @@ const DeskView = () => {
                             style={{
                                 position: 'absolute',
                                 left: '10%',
-                                bottom: '-15%',
+                                top: '40%',
                                 width: '30%'
                             }}
+                            data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             src={FifthSlideim2} alt="q" className='img-fluid' />
                         <img
                             style={{
@@ -1151,16 +1276,32 @@ const DeskView = () => {
                                 top: '-50px',
                                 width: '30%'
                             }}
+                            data-aos="fade-down"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             src={FifthSlideim3} alt="q" className='img-fluid' />
                         <img
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 left: '40%',
-                                bottom: '-20%',
+                                top: '58%',
                                 width: '30%'
                             }}
                             src={FifthSlideim4} alt="q" className='img-fluid' />
                         <img
+                            data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+
                             style={{
                                 position: 'absolute',
                                 top: '20%',
@@ -1171,6 +1312,7 @@ const DeskView = () => {
                     </div>
                 </Page>
 
+                {/* page 6 */}
                 <Page className='d-flex'>
                     <div
                         className='left sixth'
@@ -1331,6 +1473,11 @@ const DeskView = () => {
                         </div>
 
                         <div
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 display: 'inline-block',
@@ -1358,7 +1505,13 @@ const DeskView = () => {
                                 width: '100%',
                             }}
                             className="text-white poa b0 l0 p50">
-                            <h1 className="pb20 big-font">ABC 5</h1>
+                            <h1
+                                data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                className="pb20 big-font">ABC 5</h1>
                             <p className="pb50">We are the best web <br />development company <br /> of the world</p>
                             <div className="d-flex aic jcb">
                                 <a href='/' className='text-white'
@@ -1377,6 +1530,11 @@ const DeskView = () => {
                         }}
                         className='right fifth'>
                         <img
+                            data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 left: '0',
@@ -1387,6 +1545,7 @@ const DeskView = () => {
                     </div>
                 </Page>
 
+                {/* page 7 */}
                 <Page className='d-flex'>
                     <div
                         className='left seventh'
@@ -1547,6 +1706,11 @@ const DeskView = () => {
                         </div>
 
                         <div
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 display: 'inline-block',
@@ -1574,7 +1738,13 @@ const DeskView = () => {
                             }}
                             className="text-white poa b0 l0 p50">
                             <img className='pb20' src={sixthSlideim3} alt="q" />
-                            <h1 className="pb20 big-font">ABC 7</h1>
+                            <h1
+                                data-aos="fade-right"
+                                data-aos-delay="50"
+                                data-aos-duration="4000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                className="pb20 big-font">ABC 7</h1>
                             <p className="pb50">We are the best web <br />development company <br /> of the world</p>
                             <div className="d-flex aic jcb">
                                 <a href='/' className='text-white'
@@ -1593,19 +1763,29 @@ const DeskView = () => {
                         }}
                         className='right seventh'>
                         <img
+                            data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 left: '25%',
-                                bottom: '-90px',
+                                top: '30%',
                                 width: '45%',
                                 zIndex: '4'
                             }}
                             src={sixthSlideim1} alt="q" className='img-fluid' />
                         <img
+                            data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
                             style={{
                                 position: 'absolute',
                                 left: '56%',
-                                bottom: '0px',
+                                top: '25%',
                                 width: '35%'
                             }}
                             src={sixthSlideim2} alt="q" className='img-fluid' />

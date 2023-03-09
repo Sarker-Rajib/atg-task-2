@@ -1,5 +1,6 @@
 .mobile-slider {
     height: 100vh;
+    width: 100%;
     max-width: 767px;
     margin: auto;
     overflow: hidden;
@@ -11,12 +12,13 @@
     }
 }
 
-.mobile-slider {
-    width: 100%;
+.mobile-slider .swiper-slide {
+    height: 100%;
 }
 
 .mobile-slider .swiper {
     height: 100vh;
+    overflow: hidden;
 }
 
 .mobile-slider .swiper-slide .item {
